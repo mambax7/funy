@@ -1,0 +1,10 @@
+[language]
+description    = "fait tomber et rebondir une image"
+delai     = "delai de démarrage de l'animation"
+speed     = "Tempo de l'animation"
+image     = "image"
+posX      = "Coordonnée X de l'objet au démarrage"
+posY      = "Coordonnée Y de l'objet au démarrage"
+imgWidth  = "Largeur de l'image en pixel"
+imgHeight = "Hauteur de l'image en pixel" 
+coefRebondissement = "Coeficient de rebonsissement 0=aucun, 100=infini"

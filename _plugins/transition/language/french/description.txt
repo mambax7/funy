@@ -1,0 +1,35 @@
+Ce script permet de faire défiler de manière aléatoire ou non des images de même dimension.
+Les images sont chargé au fur et à mesure, ce qui permet d'éviter l'empilement des images parfois visible sur les site un peu lent.
+
+
+Options :  
+------------------------ 
+Calcul automatique de la taille des images. toutes les images doivent avoir la même taille, mais cette taille peut être différentes selon le jeu d'images.
+ 
+Filtrage dans la construction de la liste des images sélectionnables.
+   $prefixe   : Filtre tous les fichiers qui commencent par ce préfixe
+   $extention : Filtre tous les fichiers qui finissent par ce suffixe en général une extension  
+   $caseSensitiveOnPrefixe : Filtre sur la casse de $prefise et $extention  (serveur linux uniquement)           
+   $caseSensitiveOnExtention : Filtre sur la casse de $extention et $extention (serveur linux uniquement)   
+
+Légende optionnelle au dessus ou au dessous ($legendTop et $legendBottom);
+Cette légende peut être du code HTML comme une adresse HTML 
+
+Option d'enchainement: 
+   $timeBetweenSlides = délai en millième de seconde entre chaque affichage
+   $fadingSpeed       = rapidité de l'estompage  valeur plus petite = plus rapide
+   $currentOpacity    = opacité initiale
+ 
+Mode de transition:
+   - Fondu
+-	Saccadé
+-	Effet de zoom par les coins ou les bord ou le centre
+-	Et bientôt d'autre ...
+Il est possible de choisi un seul effet ou de combiner des effets au choix.
+ ***************************************************************************
+script 
+original     : (C) www.xoops.kiolo.com, janvier 2009 
+modification : Jean-Jacques DELALANDRE le 25/02/2009.
+eMail        : jjd@kiolo.com
+site         : http://ace.wakasensei.fr  
+ **************************************************************************/

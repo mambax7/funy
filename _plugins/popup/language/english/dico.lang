@@ -1,0 +1,19 @@
+[language]
+
+description    = "Ouvre une fenêtre Popup et affiche un texte"
+adTime         = "Duree d'afichage de la boite"
+chanceAd       = "Le nombre de fois que la boite sera affichée"
+texteHTML      = "Texte à afficher, Peut être du code html. utiliser les balise <b>[proverbe],[pays], et [auteur]</b> pour afficher les informations des proverbes"
+
+left           = "Position gauche de le fenêtre popup (0=centree horizontalment)"
+top            = "Positon haute de le fenêtre popup (0=centree verticalement)"
+
+width           = "Largeur de le fenêtre popup"
+height          = "Hauteur de le fenêtre popup"
+
+bgColor          = "Couleur de fond du texte"
+borderWidth      = "Epaisseur de la bordure"
+borderColorLight = "Couleur de la bordure claire"
+borderColorDark  = "Couleur de la bordure foncee"
+repeat           = "Nombre de fois ou le popup sera ouvert au cours d'une même cession"
+pays             = "Pour l'affichage des proverbe, permet de séléectionner le Pays d'origine"

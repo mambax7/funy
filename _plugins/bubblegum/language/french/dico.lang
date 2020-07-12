@@ -1,0 +1,10 @@
+[language]
+description = "Effet bulle de shewingom sur un texte"
+myText  = "Texte à afficher"
+timer  = "Timer de repetition"
+height = "Hauteur du texte"
+textColor = "Couleur du texte"
+
+[dico]
+listAlign = "Gauche;Centre;droite"
+listNoYes = "Non;Oui"

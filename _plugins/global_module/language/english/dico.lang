@@ -1,0 +1,15 @@
+[language]
+description     = "variables globales"
+mode = "Link = le chemin du fichier est inséré - Insert=le contenu des script est inclus"
+isObject = "0: les variables seront déclarées global<br>1 : un object sera instancié"
+name = nom
+blockTitle = "Titre du bloc. Il remplacera le titre du fichier xoops_version.php"
+show_buttons = "Affichage des boutons stop et start dans le bloc Funy"
+folder_img = "Répertoire ou se trouves les images. Utilisé dans les listes déroulantes des plugins."
+
+
+[dico]
+listAlign = "Gauche;Centre;droite"
+ouinon = "Non;Oui"
+modeSize = "taille fixe prédéfinie;Taille automatique"
+listNoYes = "Non;Oui"

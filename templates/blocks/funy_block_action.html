@@ -1,0 +1,59 @@
+<!-- 
+ 
+-->
+
+<table>
+  <tr>    
+    <td align='center'>
+      <{$smarty.const._MB_FUN_ANIMATIONS}>
+    </td>
+  </tr> 
+  <tr align='center'>       
+    <td>
+
+<input type='button' id='jjd54' value='<{$smarty.const._MB_FUN_START}>' name='jjd54' onclick="funy_start_all();">  
+<input type="button" value="<{$smarty.const._MB_FUN_STOP}>" name="B1" onclick="funy_stop_all();">
+
+    </td>
+  </tr>  
+</table>
+
+<{if $affichage==1}>
+  <table>
+    <{foreach item=plugin from=$PostSS}>
+      <tr>  
+        <td><{$plugin.name}></td>
+        
+        <td> 
+          <input type='button' id='jjd54' value='<{$smarty.const._MB_FUN_START}>' name='jjd54' onclick="<{$plugin.start}>;">
+        </td>
+        
+        <td>          
+          <input type="button" value="<{$smarty.const._MB_FUN_STOP}>" name="B1" onclick="<{$plugin.stop}>;">
+        </td>        
+               
+      </tr>
+    <{/foreach}>        
+  </table>
+<{else}>
+  <table>
+    <{foreach item=plugin from=$PostSS}>
+      <tr>  
+        <td colspan="2" align="center"><{$plugin.name}></td>
+      <tr></tr>      
+        <td align="center"> 
+          <input type='button' id='jjd54' value='<{$smarty.const._MB_FUN_START}>' name='jjd54' onclick="<{$plugin.start}>;">
+          <input type="button" value="<{$smarty.const._MB_FUN_STOP}>" name="B1" onclick="<{$plugin.stop}>;">
+        </td>        
+               
+      </tr>
+    <{/foreach}>        
+  </table>
+
+<{/if}>
+<form ACTION='modules/funy/index.php?op=list' METHOD=POST>
+<div  align='center'>
+  
+
+</div>
+</form>

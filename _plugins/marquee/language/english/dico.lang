@@ -1,0 +1,17 @@
+[language]
+
+description    = "fait défiler un texte"
+texteHTML      = "Texte à afficher, Peut être du code html. utiliser les balise <b>[proverbe],[pays], et [auteur]</b> pour afficher les informations des proverbes"
+pays             = "Pour l'affichage des proverbe, permet de séléectionner le Pays d'origine"
+
+bgColor = "Spécifie la couleur de fond d'une marque ( deprecated )"
+align = "Permet d'aligner un texte par rapport à une marque"
+vspace = "Spécifie l'espace vertical (en pixels) entre le texte et le bord supérieur ou inférieur de la marque"
+hspace = "Spécifie l'espace horizontal (en pixels) entre le texte et le bord gauche ou droit de la marque "
+height = "Hauteur de l'élément MARQUEE"
+width = "Largeur de l'élément MARQUEE"
+scrolldelay = "Vitesse du défilement : Définit un délai entre deux apparitions du texte"
+scrollamount = "Valeur de défilement : fixe le nombre de pixels entre chaque déplacement."
+loop = "Nombre de défilements : Introduit une boucle qui permet de repasser le texte dans la marque"
+behavior = "Comportemnt du défilement"
+direction = "Sens de défilement"

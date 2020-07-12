@@ -1,0 +1,6 @@
+[language]
+
+description    = "Affichage d'un test avec mise en forme HTML"
+texteHTML      = "Texte à afficher, Peut être du code html. utiliser les balise <b>[proverbe],[pays], et [auteur]</b> pour afficher les informations des proverbes"
+
+bgColor = "Spécifie la couleur de fond d'une marque ( deprecated )"

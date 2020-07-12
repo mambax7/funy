@@ -1,0 +1,13 @@
+﻿.imag
+{
+    position:absolute;
+    cursor: hand;
+    border : 0;
+}
+
+#divMenuRuban
+{
+    position:absolute;
+    top :0px;
+    left : 200px;
+}

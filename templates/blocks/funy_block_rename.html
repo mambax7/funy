@@ -1,0 +1,16 @@
+<table>
+  <{foreach item=plugin from=$PostSS}>
+    <tr>  
+      <td><{$plugin.name}></td>
+      
+      <td> 
+        <input type='button' id='jjd54' value='<{$smarty.const._MB_FUN_START}>' name='jjd54' onclick="<{$plugin.start}>;">
+      </td>
+      
+      <td>          
+        <input type="button" value="<{$smarty.const._MB_FUN_STOP}>" name="B1" onclick="<{$plugin.stop}>;">
+      </td>        
+             
+    </tr>
+  <{/foreach}>        
+</table>

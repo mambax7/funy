@@ -1,0 +1,7 @@
+[language]
+description    = "fait tomber des flocons de neiges"
+funy_no        = "nombre d'images"
+funy_speed     = "plus le nombre est petit, plus la vitesse augmente"
+funy_snowflake = "Image a afficher" 
+coefficient_horizontal = ""
+coefficient_vertical = ""

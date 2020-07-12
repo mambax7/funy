@@ -1,0 +1,60 @@
+Ce sript pertmet de faire défiler de manière aléatoire des images de même dimention
+dans un block prédéfini .
+Le script original provient du site 	www.dhtmlgoodies.com 
+Il ne permetait de faire défiler que des miniatures sur un des côté de XOOPS 
+Je l'ai largement modifié dans sa partie PHP principalement pour répondre à mes besoins
+ 
+Ajouts et modifications 
+------------------------ 
+Calcul automatique de la taille des images. toutes les images doivent avoir 
+la même taille, mais cette taille peut être différentes selon le jeu dimages.
+L'ancienne option à été conserver, il suffit de remettre la variable $modeSize à zéro
+Il est donc possible à présent de le metttre au centre avec des images plus grandes
+ 
+Le repertoire ou se trouve les image doit être dans le dossier uploads de Xoops
+mais le sous-dossier peut être changé plus facilement, il suffit de modifier la variable $folder
+
+Le nombre d'image à été rendu automatique pour la construction du JavaScript
+$nbImages est le nombre d'image du slideShow sélectionnée dans la liste 
+   répondant au critère de filtre énoncé plus pas 
+Il suffit juste de modifier la variable $nbImages. 
+Si $nbImages = zéro ou plus grand que le nombre d'images disponibles, 
+   $nbImages prendsla totalité de la séléction.
+Il est possible à présent de ne selectionner q'une seule image, 
+   cela donne un effet de battement de coeur.
+
+ *
+Ajout d'options de filtrage dans la construction de la liste des images sélectionables.
+   $prefixe   : Filtre tous les fichiers qui commencent par ce préfixe
+   $extention : Filtre tous les fichiers qui finissent par ce suffixe en général une extention  
+   $caseSensitiveOnPrefixe : Filtre sur la casse de $prefise et $extention  (serveur linux uniquement)           
+   $caseSensitiveOnExtention : Filtre sur la casse de $extention et $extention (serveur linux uniquement)   
+
+Ajout d'une légende optionnelle au dessus ou au dessous ($legendTop et $legendBottom);
+Cette légende peut être du code HTML comme une adresse HTML 
+
+Ajout de la possibilité de paramètrer le slide: 
+   $timeBetweenSlides = délai en millieme de seconde entre chaque afichage
+   $fadingSpeed       = rapidite de l'stompage  valeur plus petite = plus rapide
+   $currentOpacity    = opacité initiale
+ 
+Ajout d'option de debugage. 
+si_DEBUG = true, les noms des fichier sont afficés sur la page ainsi 
+ que d'autre information utilies pour les tests 
+Il ne faut as oublier de remetre _Degug a false avant la mise en prod
+**********************************************************************                 
+Installation
+Créer un bloqck, copier ce script dans le block
+spécifiez que c'est un script PHP
+n'oubliez pas de modifier les paramètres selon vos besoins    
+ ***************************************************************************
+Licence: c'est la même que celle du script d'origine
+         je vous demanderais de garder aussi dans les commentaire 
+         mes références en plus de celles des auteurs d'origine  
+ ***************************************************************************
+script 
+original     : (C) www.dhtmlgoodies.com, November 2005 
+modification : Jean-Jacques DELALANDRE le 22/08/2006.
+eMail        : jjd@kiolo.com
+site         : http://ace.wakasensei.fr  
+ **************************************************************************/

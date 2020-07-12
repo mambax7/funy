@@ -1,0 +1,22 @@
+[language]
+
+description    = "Menu tournant"
+
+image_link="Definition des items du menu. Référez-cous à la descrition du plugin pour plus d'information."
+
+imgFond="L'image pde fond par défaut est transparente. pour pouvez changer cette image."
+
+backgroundWidth="Largeur du fond."
+backgroundHeight="Hauteur du fond."
+margeWidth="Marge gauche et droite."
+margeHeight="Marge Haute et droite.<br>le menu décrit une ellipse contenu dans le rectange de fond compte tenu des marges définies."
+
+speed="Vitesse de rotation du menu"
+opacite="Degré d'opacité des images qui défilement lorqu'elles sont au plus près"
+modeDefilement="0: Dofilement continu mêmelorsque la souris n'est pas au dessus du menu.<br>1: Le menu défile uniquement quand la souris se trouve au dessus."
+name = "funy_menuRuban_modeDefilement"
+
+
+[dico]
+modeDefilement = "Continu;Au survol"
+inclinaison = "bas;haut"

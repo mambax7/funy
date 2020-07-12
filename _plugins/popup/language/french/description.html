@@ -1,0 +1,36 @@
+<strong>Popup</strong><hr>
+Permet d'ouvrir une fenêtre popup à l'ouvertture de la page.
+Les options permettent de ne l'ouvri qu'une seule fois fois ou autant de fois que vous souhaitez.
+
+L'affiche d'un proverbe est une option que j'ai ajouter pour faire des tests.
+Cependant pour l'utiliser il faut: définir une ou plisuers balises encadrer par des crochets sous la forme :
+[nom:information a afficher].
+Pour chaque information il fat mettre une balise avec le m^me nom.
+Exemple:
+ 
+-monProverbe est un nom comme celui d'une variable. "proverbe" une sorte de service Web qui permet de récupérer les propriétés du proverbe.
+ [monProverbe:proverbe:proverbe.php?op=find&lineSize=60]
+
+- Affichage du pays d'origine du proverbe
+[monProverbe.pays] : 
+
+- Affichage de l'auteur
+[monProverbe:Auteur] 
+
+- Affichage de la catégorie
+[monProverbe:categorie]
+
+Pour information il est tout a fait possible d'afficher plusieurs proverbe dans le même texte, il suffit de définir un nm différent.
+ 
+ exemple :
+ 
+  [monProverbe:proverbe:proverbe.php?op=find&lineSize=60]-[monProverbe.pays]
+  [monProverbe:proverbe:proverbe.php?op=find&lineSize=60]-[jjdai.pays] 
+  [unAutre:proverbe:proverbe.php?op=find&lineSize=60]-[unAutre.pays]
+  [unAutre:proverbe:proverbe.php?op=find&lineSize=60]-[unAutre.pays]
+  
+  affichera deux proverbe avec le pays d'origine correspondant.
+  
+La technique utilisée ici sera réutilisée pour d'autres options dans un avenir plus ou moins proche (Par exemple un horoscope).
+
+Note: d'autres plugin utilisent aussi cette technique: richText, texte ondulant, ...

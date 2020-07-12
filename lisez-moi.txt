@@ -1,0 +1,68 @@
+--------------------------------
+Module FUNY pour XOOPS
+version : 1.30
+auteur : Jean-Jacques DELALANDRE
+Date : 22-03-2009
+--------------------------------
+
+----------------
+Installation:
+----------------
+
+
+----------------
+Important
+----------------
+Avant toute chose, installer le module "jjd_tools" téléchargeable à l'adresse: http://xoopx.kiolo.com
+- Vérifier que les versions sont correctes.
+Ce module contient des biliothèques et des images utilisées par ce module.
+En cas de mise à jour du module assurez vous que la dernière version de "jjs_tool" est bien installée.
+Le numéro de version est visible dans les modules utilisant ces bibiothèques dans le premier onglet de l'administration du module.
+
+----------------
+module funy
+------------
+- Copier l'ensemble du contenu du dossier "root"(pas le dossier lui-même) à la racine de votre site.
+
+- Mettre le répertoire "_plugin_declaration" en chmod "777"
+
+- Procéder à l'installation classique du module, dans l'administration des modules.
+
+- Dans l'onglet "gestion" du module cliquez sur le lien "- Initialisation des blocks cachés"
+
+- Activer les blocks "funy_block_0","funy_block_1","funy_block_2","funy_block_3","funy_block_4" selon vos besoins,. Vous aurez besoin d'au moins un de ces blocks pour les plugins "texte", "texte ondulant", "fondu", waterEffect", ...
+
+- important ne modifier pas le paramètrage des blocks "funy_block_rename" et "funy_block_scrip"
+
+- Afficher éventuellement le block "funy_block_main" si vous souhaitez voir les bouton d'arrêt et redémarrage des 
+scripts. 
+
+
+----------------
+Theme:
+----------------
+Certains plugins nécéssitent pour bien fonctionner de modifier le fichier "theme.html".
+Pour ce faire:
+
+- Par sécuriter faites une sauvegarde de votre thème.
+
+- mettez le fichier "themes.html" de votre thème en chmod "0777".
+
+- Dans l'onglet "balise" de l'admin du module "funy" clisuez sur "affecter les balises" (en bas de la page). Après validation la liste des balises doit apparaitre en gras. si ce n'est pas le cas vérifiez que le fichier "theme.html" du thème du site est bien en chmod "0777", puis recommencez.
+Il est possible que la balise "funy_body" ne soit pas affectée, c'est peut être normal laissez comme ça, ce sera réglé dans ne prochaine version, pour le moment cette balise n'est pas utilisée, cela n'a donc pas d'incidence.
+
+- remettez le fichier "theme.html" en chmode "0644".
+
+- Faites éventellement la m^me opératinos pour tous les thèmes utilisé sur le site "en selectionnant" le bon thème dans l'onglet "balise".
+
+
+----------------
+documentation :
+----------------
+Le dossier "doc" contient la doc et la licence du module; L'installation n'est pas obligatoire, par defaut les pages affichées sont celles du site de téléchargement. Elle seront donc automatiquement mises à jour. Si vous souhaitez installer le modulle sans un acces au Web, il faut installer ce dossier en respectant l'arborescence. Le dossier doc doit se trouver dans le dossier du module "hermes".
+
+Pour toute question ou information, rendez vous sur le site: http://xoops.kiolo.com dans le forum dédié au module installé.
+
+---------------------------------------------------------
+Je vous souhaite beaucoup de plaisir avec ce module (JJD)
+---------------------------------------------------------

@@ -1,0 +1,718 @@
+[Config]
+Relative path=1
+Compilator.SaveAll=0
+Compilator.Capture=0
+Compilator.HideOutput=0
+DefaultCPIndex=0
+LogtoEnd=1
+DontOpen=0
+FileFormat=0
+[Project tree]
+funy
+	-externes
+		..\jjd_tools\_common\include\constantes.php
+		..\jjd_tools\_common\include\database_functions.php
+		..\jjd_tools\_common\include\functions.php
+		..\jjd_tools\_common\include\html_functions.php
+		..\jjd_tools\_common\include\jjd_tools.php
+		..\jjd_tools\_common\include\sysfile_functions.php
+		..\jjd_tools\_common\include\js\jjd_tools.js
+		..\..\themes\young_leaves\theme.html
+		..\jjd_tools\_common\include\spin\spin.php
+		..\jjd_tools\_common\include\editor_functions.php
+		..\jjd_tools\_common\include\debugTools.php
+	+funy
+		-_plugin_declaration
+			_plugin_declaration\_.js
+			_plugin_declaration\ak14-disclaimer-1_config_3.js
+			_plugin_declaration\ak14-disclaimer-1_config_4.js
+			_plugin_declaration\avalanche_config_6.js
+			_plugin_declaration\balise2insert.html
+			_plugin_declaration\fondu_config_2.js
+			_plugin_declaration\fonduJS_config_6.js
+			_plugin_declaration\fonduJS_config_7.js
+			_plugin_declaration\global_module_config_1.js
+			_plugin_declaration\index.html
+			_plugin_declaration\marquee_config_0.js
+			_plugin_declaration\marquee_config_10.js
+			_plugin_declaration\marquee_config_20.js
+			_plugin_declaration\marquee_config_7.js
+			_plugin_declaration\marquee_config_9.js
+			_plugin_declaration\marquee_div_10.js
+			_plugin_declaration\marquee_div_20.js
+			_plugin_declaration\marquee_div_7.js
+			_plugin_declaration\marquee_div_9.js
+			_plugin_declaration\menu-ruban_config_10.js
+			_plugin_declaration\menu-ruban_config_11.js
+			_plugin_declaration\menu-ruban_config_19.js
+			_plugin_declaration\menu-ruban_config_2.js
+			_plugin_declaration\menu-ruban_config_3.js
+			_plugin_declaration\menu-ruban_config_4.js
+			_plugin_declaration\menu-ruban_config_5.js
+			_plugin_declaration\menu-ruban_config_6.js
+			_plugin_declaration\menu-ruban_config_7.js
+			_plugin_declaration\menu-ruban_config_8.js
+			_plugin_declaration\menu-ruban_config_9.js
+			_plugin_declaration\neige_config_7.js
+			_plugin_declaration\popup_config_17.js
+			_plugin_declaration\richText_config_0.js
+			_plugin_declaration\richText_config_12.js
+			_plugin_declaration\richText_config_13.js
+			_plugin_declaration\richText_config_14.js
+			_plugin_declaration\richText_config_15.js
+			_plugin_declaration\richText_config_16.js
+			_plugin_declaration\richText_div_14.js
+			_plugin_declaration\richText_div_15.js
+			_plugin_declaration\richText_div_16.js
+			_plugin_declaration\texte_config_5.js
+			_plugin_declaration\texte_config_8.js
+			_plugin_declaration\texte_ondulant_config_3.js
+			_plugin_declaration\transition_config_2.js
+			_plugin_declaration\transition_config_21.js
+			_plugin_declaration\transition_config_22.js
+			_plugin_declaration\transition_config_23.js
+			_plugin_declaration\transition_config_24.js
+			_plugin_declaration\transition_config_25.js
+			_plugin_declaration\transition_config_26.js
+			_plugin_declaration\transition_config_27.js
+			_plugin_declaration\transition_config_28.js
+			_plugin_declaration\transition_config_8.js
+			_plugin_declaration\water-effect_config_4.js
+			_plugin_declaration\water-effect_config_5.js
+			_plugin_declaration\water-effect_config_6.js
+		+_plugins
+			-enseigne
+				+language
+					-english
+						_plugins\enseigne\language\english\description.html
+						_plugins\enseigne\language\english\dico.lang
+					-french
+						_plugins\enseigne\language\french\description.html
+						_plugins\enseigne\language\french\dico.lang
+				_plugins\enseigne\body.js
+				_plugins\enseigne\config.ini
+				_plugins\enseigne\body_onload.js
+				_plugins\enseigne\body_div.js
+				_plugins\enseigne\body_div2.js
+			-rebond
+				-language
+					-english
+						_plugins\rebond\language\english\dico.lang
+					-french
+						_plugins\rebond\language\french\dico.lang
+				_plugins\rebond\config.ini
+				_plugins\rebond\body.txt
+				_plugins\rebond\body.js
+				_plugins\rebond\dico.lang
+				_plugins\rebond\body_onload.js
+				_plugin_declaration\rebond_config_10.js
+				_plugin_declaration\rebond_div_10.js
+				_plugin_declaration\imageQuiTombe_config_12.js
+				_plugin_declaration\rebond_config_0.js
+				_plugin_declaration\rebond_config_12.js
+				_plugins\rebond\action.js
+			-ak14-disclaimer-1
+				-doc
+					-installer.php_fichiers
+						_plugins\ak14-disclaimer-1\doc\installer.php_fichiers\infos.css
+						_plugins\ak14-disclaimer-1\doc\installer.php_fichiers\logo-pages.png
+						_plugins\ak14-disclaimer-1\doc\installer.php_fichiers\mini-ak14.png
+						_plugins\ak14-disclaimer-1\doc\installer.php_fichiers\mini-css.png
+						_plugins\ak14-disclaimer-1\doc\installer.php_fichiers\mini-xhtml.png
+					_plugins\ak14-disclaimer-1\doc\installer.php.htm
+					_plugins\ak14-disclaimer-1\doc\original header-1.js
+					_plugins\ak14-disclaimer-1\doc\original header-2.js
+					_plugins\ak14-disclaimer-1\doc\original header-3.js
+					_plugins\ak14-disclaimer-1\doc\site.url
+				-language
+					-english
+						_plugins\ak14-disclaimer-1\language\english\description.html
+						_plugins\ak14-disclaimer-1\language\english\disclaimer.html
+						_plugins\ak14-disclaimer-1\language\english\index.html
+					-french
+						_plugins\ak14-disclaimer-1\language\french\description.html
+						_plugins\ak14-disclaimer-1\language\french\dico.lang
+						_plugins\ak14-disclaimer-1\language\french\disclaimer.html
+						_plugins\ak14-disclaimer-1\language\french\index.html
+					_plugins\ak14-disclaimer-1\language\index.html
+				_plugins\ak14-disclaimer-1\attention-xoops.png
+				_plugins\ak14-disclaimer-1\body.js
+				_plugins\ak14-disclaimer-1\config.ini
+				_plugins\ak14-disclaimer-1\english.lang
+				_plugins\ak14-disclaimer-1\header.js
+				_plugins\ak14-disclaimer-1\index.html
+				_plugins\ak14-disclaimer-1\panneau-bgnoir.png
+			-ak14-disclaimer-2
+				+language
+					+english
+						_plugins\ak14-disclaimer-2\language\english\description.html
+						_plugins\ak14-disclaimer-2\language\english\dico.lang
+						_plugins\ak14-disclaimer-2\language\english\disclaimer.txt
+						_plugins\ak14-disclaimer-2\language\english\index.html
+					+french
+						_plugins\ak14-disclaimer-2\language\french\description.html
+						_plugins\ak14-disclaimer-2\language\french\dico.lang
+						_plugins\ak14-disclaimer-2\language\french\disclaimer.txt
+						_plugins\ak14-disclaimer-2\language\french\index.html
+					_plugins\ak14-disclaimer-2\language\index.html
+				_plugins\ak14-disclaimer-2\body.js
+				_plugins\ak14-disclaimer-2\config.ini
+				_plugins\ak14-disclaimer-2\header.js
+				_plugins\ak14-disclaimer-2\index.html
+			-avalanche
+				+language
+					+english
+						_plugins\avalanche\language\english\dico.lang
+						_plugins\avalanche\language\english\index.html
+						_plugins\avalanche\language\english\description.html
+					+french
+						_plugins\avalanche\language\french\dico.lang
+						_plugins\avalanche\language\french\index.html
+						_plugins\avalanche\language\french\description.html
+					_plugins\avalanche\language\index.html
+				_plugins\avalanche\body.js
+				_plugins\avalanche\config.ini
+				_plugins\avalanche\getNavigateur.js
+				_plugins\avalanche\index.html
+				_plugin_declaration\avalanche_config_3.js
+			-bubblegum
+				+language
+					-english
+						_plugins\bubblegum\language\english\dico.lang
+						_plugins\bubblegum\language\english\index.html
+						_plugins\bubblegum\language\english\description.html
+					+french
+						_plugins\bubblegum\language\french\dico.lang
+						_plugins\bubblegum\language\french\index.html
+						_plugins\bubblegum\language\french\description.html
+					_plugins\bubblegum\language\index.html
+				_plugins\bubblegum\body.js
+				_plugins\bubblegum\body_div.js
+				_plugins\bubblegum\body_div2.js
+				_plugins\bubblegum\body_onload.js
+				_plugins\bubblegum\config.ini
+				_plugins\bubblegum\index.html
+			-defilement_Barre_De_Titre
+				+language
+					+english
+						_plugins\defilement_Barre_De_Titre\language\english\dico.lang
+						_plugins\defilement_Barre_De_Titre\language\english\index.html
+						_plugins\defilement_Barre_De_Titre\language\english\description.html
+					+french
+						_plugins\defilement_Barre_De_Titre\language\french\dico.lang
+						_plugins\defilement_Barre_De_Titre\language\french\index.html
+						_plugins\defilement_Barre_De_Titre\language\french\description.html
+					_plugins\defilement_Barre_De_Titre\language\index.html
+				_plugins\defilement_Barre_De_Titre\body.js
+				_plugins\defilement_Barre_De_Titre\config.ini
+				_plugins\defilement_Barre_De_Titre\index.html
+			-farandole
+				+language
+					+english
+						_plugins\farandole\language\english\dico.lang
+						_plugins\farandole\language\english\index.html
+						_plugins\farandole\language\english\description.html
+					+french
+						_plugins\farandole\language\french\dico.lang
+						_plugins\farandole\language\french\index.html
+						_plugins\farandole\language\french\description.html
+					_plugins\farandole\language\index.html
+				-zzz
+					_plugins\farandole\zzz\index.html
+					_plugins\farandole\zzz\Nouveau1.js
+					_plugins\farandole\zzz\Nouveau2.js
+				_plugins\farandole\body.js
+				_plugins\farandole\config.ini
+				_plugins\farandole\declaration.js
+				_plugins\farandole\farandole.js
+				_plugins\farandole\header.js
+				_plugins\farandole\index.html
+			-fondu
+				-language
+					-english
+						_plugins\fondu\language\english\description.txt
+						_plugins\fondu\language\english\dico.lang
+						_plugins\fondu\language\english\index.html
+					-french
+						_plugins\fondu\language\french\description.txt
+						_plugins\fondu\language\french\dico.lang
+						_plugins\fondu\language\french\index.html
+					_plugins\fondu\language\index.html
+				_plugins\fondu\body.js
+				_plugins\fondu\body_div.js
+				_plugins\fondu\cls_fondu.php
+				_plugins\fondu\config.ini
+				_plugins\fondu\Fondu 1.1.9.php
+				_plugins\fondu\fondu.php
+				_plugins\fondu\index.html
+			-global_module
+				+language
+					-english
+						_plugins\global_module\language\english\dico.lang
+						_plugins\global_module\language\english\index.html
+						_plugins\global_module\language\english\description.html
+					+french
+						_plugins\global_module\language\french\dico.lang
+						_plugins\global_module\language\french\index.html
+						_plugins\global_module\language\french\description.html
+					_plugins\global_module\language\index.html
+				_plugins\global_module\body.js
+				_plugins\global_module\config.ini
+				_plugins\global_module\getNavigateur.js
+				_plugins\global_module\head.js
+				_plugins\global_module\index.html
+				_plugin_declaration\global_module_config_1.js
+			-imageQuiTombe
+				+language
+					-english
+						_plugins\imageQuiTombe\language\english\dico.lang
+						_plugins\imageQuiTombe\language\english\index.html
+						_plugins\imageQuiTombe\language\english\description.html
+					-french
+						_plugins\imageQuiTombe\language\french\dico.lang
+						_plugins\imageQuiTombe\language\french\index.html
+						_plugins\imageQuiTombe\language\french\description.html
+					_plugins\imageQuiTombe\language\index.html
+				_plugins\imageQuiTombe\body.js
+				_plugins\imageQuiTombe\body.txt
+				_plugins\imageQuiTombe\body_onload.js
+				_plugins\imageQuiTombe\config.ini
+				_plugins\imageQuiTombe\dico.lang
+				_plugins\imageQuiTombe\index.html
+			-marquee
+				+language
+					-english
+						_plugins\marquee\language\english\dico.lang
+						_plugins\marquee\language\english\index.html
+						_plugins\marquee\language\english\description.html
+					+french
+						_plugins\marquee\language\french\dico.lang
+						_plugins\marquee\language\french\index.html
+						_plugins\marquee\language\french\description.html
+					_plugins\marquee\language\index.html
+				_plugins\marquee\body.js
+				_plugins\marquee\body_div.js
+				_plugins\marquee\body_div_0.js
+				_plugins\marquee\body_div_1.js
+				_plugins\marquee\body_div_2.js
+				_plugins\marquee\config.ini
+				_plugins\marquee\header.js
+				_plugins\marquee\index.html
+			-menu-ruban
+				-images
+					_plugins\menu-ruban\images\administration.png
+					_plugins\menu-ruban\images\eparcyle.png
+					_plugins\menu-ruban\images\fond.png
+					_plugins\menu-ruban\images\fond-transparent.png
+					_plugins\menu-ruban\images\funy.png
+					_plugins\menu-ruban\images\hermes.png
+					_plugins\menu-ruban\images\index.html
+					_plugins\menu-ruban\images\JJD_Tools.png
+					_plugins\menu-ruban\images\jjdai_o_yoda06.jpg
+					_plugins\menu-ruban\images\jjdai_o_yoda06.png
+					_plugins\menu-ruban\images\lexique.png
+					_plugins\menu-ruban\images\xdonnation.png
+					_plugins\menu-ruban\images\xoops_nullos_.png.png
+					_plugins\menu-ruban\images\xoops_top30.gif
+					_plugins\menu-ruban\images\xoops-bleu.png
+				-language
+					-english
+						_plugins\menu-ruban\language\english\description.html
+						_plugins\menu-ruban\language\english\dico.lang
+						_plugins\menu-ruban\language\english\index.html
+					-french
+						_plugins\menu-ruban\language\french\description.html
+						_plugins\menu-ruban\language\french\dico.lang
+						_plugins\menu-ruban\language\french\index.html
+					_plugins\menu-ruban\language\index.html
+				_plugins\menu-ruban\body.js
+				_plugins\menu-ruban\body_div.js
+				_plugins\menu-ruban\config.ini
+				_plugins\menu-ruban\exemple.txt
+				_plugins\menu-ruban\header.js
+				_plugins\menu-ruban\index.html
+				_plugins\menu-ruban\MenuDeroulant.js
+				_plugins\menu-ruban\Style.css
+			-neige
+				-language
+					-english
+						_plugins\neige\language\english\dico.lang
+						_plugins\neige\language\english\index.html
+					-french
+						_plugins\neige\language\french\dico.lang
+						_plugins\neige\language\french\index.html
+					_plugins\neige\language\index.html
+				_plugins\neige\body.js
+				_plugins\neige\config.ini
+				_plugins\neige\getNavigateur.js
+				_plugins\neige\index.html
+			-popup
+				+language
+					+english
+						_plugins\popup\language\english\dico.lang
+						_plugins\popup\language\english\index.html
+						_plugins\popup\language\english\description.html
+					+french
+						_plugins\popup\language\french\dico.lang
+						_plugins\popup\language\french\index.html
+						_plugins\popup\language\french\description.html
+					_plugins\popup\language\index.html
+				_plugins\popup\body.js
+				_plugins\popup\cls_texte_ondulant.php
+				_plugins\popup\config.ini
+				_plugins\popup\header.js
+				_plugins\popup\index.html
+			-richText
+				+language
+					-english
+						_plugins\richText\language\english\dico.lang
+						_plugins\richText\language\english\index.html
+					+french
+						_plugins\richText\language\french\dico.lang
+						_plugins\richText\language\french\index.html
+					_plugins\richText\language\index.html
+				_plugins\richText\body.js
+				_plugins\richText\body_div.js
+				_plugins\richText\config.ini
+				_plugins\richText\header.js
+				_plugins\richText\index.html
+			-texte_ondulant
+				+language
+					+english
+						_plugins\texte_ondulant\language\english\index.html
+						_plugins\texte_ondulant\language\english\dico.lang
+					+french
+						_plugins\texte_ondulant\language\french\index.html
+						_plugins\texte_ondulant\language\french\dico.lang
+					_plugins\texte_ondulant\language\index.html
+				_plugins\texte_ondulant\body.js
+				_plugins\texte_ondulant\body_div.js
+				_plugins\texte_ondulant\body_div2.js
+				_plugins\texte_ondulant\body_onload.js
+				_plugins\texte_ondulant\config.ini
+				_plugins\texte_ondulant\index.html
+			-transition
+				-language
+					+english
+						_plugins\transition\language\english\description.txt
+						_plugins\transition\language\english\dico.lang.lang
+						_plugins\transition\language\english\index.html
+					+french
+						_plugins\transition\language\french\description.txt
+						_plugins\transition\language\french\dico.lang
+						_plugins\transition\language\french\index.html
+					_plugins\transition\language\index.html
+				_plugins\transition\config.ini
+				_plugins\transition\body.js
+				_plugins\transition\body_div.js
+				_plugins\transition\index.html
+				_plugin_declaration\transition_config_9.js
+			-water-effect
+				-java
+					_plugins\water-effect\java\index.html
+					_plugins\water-effect\java\water.class
+					_plugins\water-effect\java\water.java
+				+language
+					+english
+						_plugins\water-effect\language\english\description.html
+						_plugins\water-effect\language\english\index.html
+						_plugins\water-effect\language\english\dico.lang
+					-french
+						_plugins\water-effect\language\french\description.html
+						_plugins\water-effect\language\french\index.html
+						_plugins\water-effect\language\french\dico.lang
+					_plugins\water-effect\language\index.html
+				_plugins\water-effect\body_div.js
+				_plugins\water-effect\cls_waterEffect.php
+				_plugins\water-effect\config.ini
+				_plugins\water-effect\disclaimer-english.html
+				_plugins\water-effect\index.html
+				_plugins\water-effect\water.class
+				_plugins\water-effect\water.java
+			_plugins\index.html
+			_plugins\testClasse.html
+		-_ressources
+			_ressources\2724.gif
+			_ressources\3695.gif
+			_ressources\billard5.jpg
+			_ressources\Copy of smil3dbd4df1944ee.gif
+			_ressources\download.gif
+			_ressources\em_small.gif
+			_ressources\flocon3.png
+			_ressources\forbid.gif
+			_ressources\funy_logo.gif
+			_ressources\funy_logo.png
+			_ressources\gif_anime_noel_088.gif
+			_ressources\Image1.gif
+			_ressources\Image2.gif
+			_ressources\index.html
+			_ressources\noel_022.gif
+			_ressources\paques_011.gif
+			_ressources\paques_060.gif
+			_ressources\script-xo.js
+			_ressources\smil3dbd4bf386b36.gif
+			_ressources\smil3dbd4dbc14f3f.gif
+			_ressources\smil3dbd4dcd7b9f4.gif
+			_ressources\smil3dbd4ddd6835f.gif
+			_ressources\smil3dbd4df1944ee.gif
+			_ressources\smil3dbd4e02c5440.gif
+			_ressources\smil3dbd4e1748cc9.gif
+			_ressources\smil3dbd4e29bbcc7.gif
+			_ressources\smil3dbd4e398ff7b.gif
+			_ressources\snow.gif
+			_ressources\snow2.gif
+			_ressources\snow3.gif
+			_ressources\Thumbs.db
+			_ressources\trombonne.gif
+			_ressources\voeux2009a.gif
+			_ressources\world.gif
+		+admin
+			admin\admin_action.php
+			admin\admin_balise.php
+			admin\admin_block.php
+			admin\admin_doc.php
+			admin\admin_event.php
+			admin\admin_event_fnc.php
+			admin\admin_header.php
+			admin\admin_plugin.php
+			admin\admin_proverbe.php
+			admin\admin_styleSheet.php
+			admin\admin_version.php
+			admin\index.html
+			admin\index.php
+			admin\menu.php
+		+blocks
+			blocks\funy_block.php
+			blocks\funy_block_action.php
+			blocks\funy_block_main.php
+			blocks\index.html
+		+class
+			-nusoap
+				class\nusoap\changelog
+				class\nusoap\class.nusoap_base.php
+				class\nusoap\class.soap_fault.php
+				class\nusoap\class.soap_parser.php
+				class\nusoap\class.soap_server.php
+				class\nusoap\class.soap_transport_http.php
+				class\nusoap\class.soap_val.php
+				class\nusoap\class.soapclient.php
+				class\nusoap\class.wsdl.php
+				class\nusoap\class.wsdlcache.php
+				class\nusoap\class.xmlschema.php
+				class\nusoap\nusoap.php
+				class\nusoap\nusoapmime.php
+			class\cls_funy_proverbe.php
+			class\index.html
+		-doc
+			-help
+				-img
+					doc\help\img\duplicate.gif
+					doc\help\img\edit.gif
+					doc\help\img\friend.gif
+					doc\help\img\funy_logo.png
+					doc\help\img\funy-01.jpg
+					doc\help\img\index.html
+					doc\help\img\light_blue.gif
+					doc\help\img\prepar.gif
+					doc\help\img\propriete.gif
+					doc\help\img\remove.gif
+					doc\help\img\Thumbs.db
+					doc\help\img\tools.gif
+					doc\help\img\view.gif
+				doc\help\avertissement-balises-englich.html
+				doc\help\avertissement-balises-french.html
+				doc\help\funy-english.htm
+				doc\help\funy-french.htm
+				doc\help\funy-histo-english.htm
+				doc\help\funy-histo-french.htm
+				doc\help\index.html
+				doc\help\Microsoft FrontPage.lnk
+			-licence
+				doc\licence\GPL-english.htm
+				doc\licence\GPL-french.htm
+				doc\licence\index.html
+			doc\admin_doc.php
+			doc\index.html
+		-images
+			-gif
+				images\gif\14428.gif
+				images\gif\1874.gif
+				images\gif\22860.gif
+				images\gif\2554.gif
+				images\gif\2724.gif
+				images\gif\2736.gif
+				images\gif\287.gif
+				images\gif\3695.gif
+				images\gif\56.gif
+				images\gif\6530.gif
+				images\gif\6577.gif
+				images\gif\6989.gif
+				images\gif\6992.gif
+				images\gif\billard.jpg
+				images\gif\Copy of smil3dbd4df1944ee.gif
+				images\gif\download.gif
+				images\gif\em_small.gif
+				images\gif\flocon3.png
+				images\gif\forbid.gif
+				images\gif\funy_logo.gif
+				images\gif\funy_logo.png
+				images\gif\gif_anime_noel_088.gif
+				images\gif\Image1.gif
+				images\gif\Image2.gif
+				images\gif\index.html
+				images\gif\noel_022.gif
+				images\gif\paques_011.gif
+				images\gif\paques_060.gif
+				images\gif\sabreur.gif
+				images\gif\script-xo.js
+				images\gif\smil3dbd4bf386b36.gif
+				images\gif\smil3dbd4dbc14f3f.gif
+				images\gif\smil3dbd4dcd7b9f4.gif
+				images\gif\smil3dbd4ddd6835f.gif
+				images\gif\smil3dbd4df1944ee.gif
+				images\gif\smil3dbd4e02c5440.gif
+				images\gif\smil3dbd4e1748cc9.gif
+				images\gif\smil3dbd4e29bbcc7.gif
+				images\gif\smil3dbd4e398ff7b.gif
+				images\gif\snow.gif
+				images\gif\snow2.gif
+				images\gif\snow3.gif
+				images\gif\sumo.gif
+				images\gif\Thumbs.db
+				images\gif\trombonne.gif
+				images\gif\voeux2009a.gif
+				images\gif\world.gif
+			-img
+				images\img\1029967121_nullosxoops.gif.jpg
+				images\img\1987.jpg
+				images\img\350px-Brueghel-tower-of-babel.jpg
+				images\img\index.html
+				images\img\paradis_1.jpg
+				images\img\Thumbs.db
+			images\funy_logo.png
+			images\index.html
+		+include
+			include\funy_balise.php
+			include\funy_constantes.php
+			include\funy_data.php
+			include\funy_generique.php
+			include\funy_header.php
+			include\index.html
+		-js
+			js\funy.js
+			js\index.html
+		-language
+			-english
+				-mail_template
+					language\english\mail_template\index.html
+					language\english\mail_template\lexique_newpost_notify.tpl
+				language\english\admin.php
+				language\english\blocks.php
+				language\english\index.html
+				language\english\main.php
+				language\english\modinfo.php
+			-french
+				-mail_template
+					language\french\mail_template\index.html
+					language\french\mail_template\lexique_newpost_notify.tpl
+				language\french\admin.php
+				language\french\blocks.php
+				language\french\index.html
+				language\french\main.php
+				language\french\modinfo.php
+			language\index.html
+		+sql
+			sql\index.html
+			sql\JJD.sql
+			sql\mysql.sql
+		-templates
+			+blocks
+				templates\blocks\funy_block_0.html
+				templates\blocks\funy_block_1.html
+				templates\blocks\funy_block_2.html
+				templates\blocks\funy_block_3.html
+				templates\blocks\funy_block_4.html
+				templates\blocks\funy_block_action.html
+				templates\blocks\funy_block_rename.html
+				templates\blocks\funy_block_script.html
+				templates\blocks\index.html
+			templates\index.html
+		+versions
+			versions\fun_1_05a.php
+			versions\fun_1_06a.php
+			versions\fun_1_22a.php
+			versions\index.html
+		_funy.ppr
+		Copie de _funy.ppr
+		dhtml-site.url
+		header.php
+		index.php
+		ppp.php
+		proverbe.php
+		proverbe-bis.php
+		todo.txt
+		xoops_version.php
+[Open project files]
+0=admin\admin_action.php
+1=admin\admin_balise.php
+2=admin\admin_block.php
+3=admin\admin_doc.php
+4=admin\admin_event.php
+5=admin\admin_event_fnc.php
+6=admin\admin_header.php
+7=admin\admin_plugin.php
+8=admin\admin_proverbe.php
+9=admin\admin_styleSheet.php
+10=admin\admin_version.php
+11=admin\index.html
+12=admin\index.php
+13=admin\menu.php
+14=xoops_version.php
+[Selected Project Files]
+Main=
+Selected=xoops_version.php
+[admin\admin_action.php]
+TopLine=1
+Caret=1,29
+[admin\admin_balise.php]
+TopLine=1
+Caret=1,1
+[admin\admin_block.php]
+TopLine=1
+Caret=1,1
+[admin\admin_doc.php]
+TopLine=1
+Caret=1,1
+[admin\admin_event.php]
+TopLine=1
+Caret=1,1
+[admin\admin_event_fnc.php]
+TopLine=1
+Caret=1,1
+[admin\admin_header.php]
+TopLine=1
+Caret=1,1
+[admin\admin_plugin.php]
+TopLine=1
+Caret=1,1
+[admin\admin_proverbe.php]
+TopLine=1
+Caret=1,1
+[admin\admin_styleSheet.php]
+TopLine=1
+Caret=1,1
+[admin\admin_version.php]
+TopLine=1
+Caret=1,1
+[admin\index.html]
+TopLine=1
+Caret=1,1
+[admin\index.php]
+TopLine=1
+Caret=1,1
+[admin\menu.php]
+TopLine=1
+Caret=1,1
+[xoops_version.php]
+TopLine=1
+Caret=37,48

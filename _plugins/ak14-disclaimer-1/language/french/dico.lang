@@ -1,0 +1,24 @@
+[language]
+
+description    = "Affichage d'un disclaimer pour alerter les internautes d'un risque potentiel pour les mineurs"
+
+name = "nom"
+msk_opacity = "Pourcenage d'opacité du fond qui permet de désactiver le reste de la page"
+msk_opacity_Color = "Couleur du fond opaque"
+msk_margin_left = "Marge de gauche du fond opaque"
+msk_margin_right = "Marge droite du fond opaque"
+msk_margin_top = "Marge haute du fond opaque"
+msk_margin_bottom = "Marge basse du fond opaque"
+
+box_top = "Position haute du disclaimer"
+box_width = "Largeur du disclamer"
+box_height = "Largeur du disclamer"
+
+icone = "Url de l'alerte (par défaut celle du site ak14)"
+dislcamer = "Alerte"
+ok = "Titre du bouton 'visiter'"
+ok_title = "Message d'indofmation au survol du bouton 'visiter'"
+cancel = "Titre du bouton 'Cancel'"
+cancel_title = "Message d'indofmation au survol du bouton 'Cancel'"
+url = "URL du site de redirection en cas d'annulation (site ak14 par défault)"
+

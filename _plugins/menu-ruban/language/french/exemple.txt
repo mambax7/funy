@@ -1,0 +1,68 @@
+new
+img:=modules/funy/_plugins/menu-ruban/images/hermes.png
+link:=http://xoops.kiolo.com/modules/mydownloads/viewcat.php?cid=5
+alt:=Télécharger le module Funy
+title:=Telécharger le module Hermes
+
+
+new
+img:=modules/funy/_plugins/menu-ruban/images/jjdai_o_yoda06.png
+link:=http://xoops.kiolo.com/modules/mydownloads/viewcat.php?cid=5
+alt:=Mon site
+title:=Mon site
+
+
+new
+img:=modules/funy/_plugins/menu-ruban/images/funy.png
+link:=http://xoops.kiolo.com/modules/mydownloads/viewcat.php?cid=10
+alt:=Télécharger le module Funy
+title:=Télécharger le module Funy
+
+new
+img:=modules/funy/_plugins/menu-ruban/images/xdonnation.png
+link:=http://xoops.kiolo.com/modules/mydownloads/viewcat.php?cid=1
+alt:=Télécharger le module uny
+title:=zzz le module Funy
+
+new
+img:=modules/funy/_plugins/menu-ruban/images/JJD_Tools.png
+link:=http://xoops.kiolo.com/modules/mydownloads/viewcat.php?cid=6
+alt:=Télécharger le module jjd_tools
+title:=Télécharger le module jjd_tools
+
+
+
+new
+img:=modules/funy/_plugins/menu-ruban/images/lexique.png
+link:=http://xoops.kiolo.com/modules/mydownloads/viewcat.php?cid=7
+alt:=Télécharger le module Lexique
+title:=Télécharger le module Lexique
+
+
+new
+img:=modules/funy/_plugins/menu-ruban/images/eparcyle.png
+link:=http://cgse.centralexpresservice.com/
+alt:=Le site des Nullos
+title:=Le site des Nullos
+
+new
+img:=modules/funy/_plugins/menu-ruban/images/xoops-bleu.png
+link:=http://www.frxoops.org/
+alt:=Site francophone des utilisateurs de Xoops
+title:=Site francophone des utilisateurs de Xoops
+
+
+new
+img:=modules/funy/_plugins/menu-ruban/images/xoops_top30.gif
+link:=http://www.frxoops.org/modules/news/article.php?storyid=1073&keywords=top30
+alt:=TOP 30 des modules pour Xoops
+title:=TOP 30 des modules pour Xoops
+
+
+new
+img:=modules/funy/_plugins/menu-ruban/images/xoops_nullos_.png.png
+link:=http://cgse.centralexpresservice.com/
+alt:=Le site des Nullos
+title:=Le site des Nullos
+
+

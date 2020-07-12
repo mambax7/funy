@@ -1,0 +1,10 @@
+[language]
+description    = "Fait défilier un texte dans la barre de titre de la fenêtre"
+texte = "Texte à faire d‚fiier"
+clearCurrentTitle = "Effacer le titre initial"
+tempo = "Tempo du défilement"
+repeat = "Nombre de répétitoin (0 = infinie)"
+replaceSBbyUS = "Remplacer les espaces par de traits de soulignements"
+
+[dico]
+listNoYes = "Non;Oui"

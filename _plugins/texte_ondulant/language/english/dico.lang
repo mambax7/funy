@@ -1,0 +1,9 @@
+[language]
+description = "Fait onduler un texte"
+myText  = "Texte ondulant à afficher"
+timer  = "Vitesse de d'odulation"
+height = "Hauteur du texte"
+textColor = "Couleur du texte"
+
+[dico]
+listAlign = "Gauche;Centre;droite"

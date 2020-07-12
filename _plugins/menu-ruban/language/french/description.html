@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+</head>
+<body>
+<strong>MenuRuban<br>
+Auteur : Jean-JAcques DELALANDRE<br>
+Site : http://xoops.kiolo.com<br>
+<br>
+</strong>C'est un menu constitu&eacute; d'images qui tournent le long d'une ellipse. Un clique sur limage permet d'acc&eacute;der au lien associ&eacute;.<br>
+<br>
+<br>
+<span style="font-size: 12pt; font-family: &quot;Times New Roman&quot;; font-weight: bold;">D&eacute;finition</span><span style="font-weight: bold;">&nbsp;</span>des items du menu.<br>
+La structure de chaque item est constitu&eacute;e de plusieurs lignes don la premi&egrave;re doit obligatoirement &ecirc;tre "<span style="font-weight: bold;">new</span>".<br>
+Ensuite les lignes sont constutu&eacute;es d'une cl&eacute; du couple de signes&nbsp; "<big><span style="font-weight: bold;">:=</span></big>" (deux-points egal) et d'une valeur. Toute les cl&eacute;s doivent &ecirc;tre p&eacute;sentent.<br>
+Vous pouvez laisser des lignes vierges pour a&eacute;rer les d&eacute;finitions.<br>
+<br>
+<span style="font-weight: bold;">img</span> : d&eacute;finit l'url de l'image sans le domaine<br>
+<span style="font-weight: bold;">link</span> : &nbsp;Liens &agrave; atteindre quand on clique sur l'image. le domaine doit &ecirc;tre pr&eacute;sent, ce qui permet de cr&eacute;er des liens sur des sites externes.<br>
+<span style="font-weight: bold;">alt</span> : text &agrave; afficher si l'image n'existe pas (&ccedil;a ne devrait jamais arriver).<br>
+<span style="font-weight: bold;">title</span> : Texte de l'infobulle quand la souris survole une image.<br>
+<br>
+<span style="font-weight: bold;">exemple:</span><br>
+<br>
+<table style="text-align: left; width: 80%;" border="1" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td>new<br>
+img:=modules/funy/_plugins/menu-ruban/images/funy.png<br>
+link:=http://xoops.kiolo.com/modules/mydownloads/viewcat.php?cid=10<br>
+alt:=T&eacute;l&eacute;charger le module Funy<br>
+title:=T&eacute;l&eacute;charger le module Funy<br>
+      <br>
+new<br>
+img:=modules/funy/_plugins/menu-ruban/images/hermes.png<br>
+link:=http://xoops.kiolo.com/modules/mydownloads/viewcat.php?cid=5<br>
+alt:=T&eacute;l&eacute;charger le module Funy<br>
+title:=T&eacute;l&eacute;charger le module Hermes<br>
+      <br>
+new<br>
+img:=modules/funy/_plugins/menu-ruban/images/xdonnation.png<br>
+link:=http://xoops.kiolo.com/modules/mydownloads/viewcat.php?cid=1<br>
+alt:=T&eacute;l&eacute;charger le module Funy<br>
+title:=T&eacute;l&eacute;charger le module Funy<br>
+      <br>
+new<br>
+img:=modules/funy/_plugins/menu-ruban/images/JJD_Tools.png<br>
+link:=http://xoops.kiolo.com/modules/mydownloads/viewcat.php?cid=6<br>
+alt:=T&eacute;l&eacute;charger le module jjd_tools<br>
+title:=T&eacute;l&eacute;charger le module jjd_tools<br>
+      <br>
+new<br>
+img:=modules/funy/_plugins/menu-ruban/images/lexique.png<br>
+link:=http://xoops.kiolo.com/modules/mydownloads/viewcat.php?cid=7<br>
+alt:=T&eacute;l&eacute;charger le module Lexique<br>
+title:=T&eacute;l&eacute;charger le module Lexique<br>
+      <br>
+new<br>
+img:=modules/funy/_plugins/menu-ruban/images/eparcyle.png<br>
+link:=http://cgse.centralexpresservice.com/<br>
+alt:=Le site des Nullos<br>
+title:=Le site des Nullos<br>
+      <br>
+new<br>
+img:=modules/funy/_plugins/menu-ruban/images/xoops-bleu.png<br>
+link:=http://www.frxoops.org/<br>
+alt:=Site francophone des utilisateurs de Xoops<br>
+title:=Site francophone des utilisateurs de Xoops<br>
+      <br>
+new<br>
+img:=modules/funy/_plugins/menu-ruban/images/xoops_top30.gif<br>
+link:=http://www.frxoops.org/modules/news/article.php?storyid=1073&amp;keywords=top30<br>
+alt:=TOP 30 des modules pour Xoops<br>
+title:=TOP 30 des modules pour Xoops<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<br>
+<span style="font-weight: bold;">Trajectoire</span><br>
+La trajectoire est ue &eacute;llipse inscrite dans le rectangle d&eacute;fini dans les options moins les marges.<br>
+Attention de ne pas metres une trop grande large, tout le monde n'a pas encore de grand &eacute;cran.<br>
+<br>
+<br>
+&nbsp;<br>
+
+</body>
+</html>

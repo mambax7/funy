@@ -1,0 +1,5 @@
+[language]
+
+description   = "fait une farandole avec les objets de la page"
+repeat        = "Nombre de fois ou le popup sera ouvert au cours d'une même cession"
+duree         = "Durée de l'animation"

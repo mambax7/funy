@@ -1,0 +1,88 @@
+
+<p class=MsoNormal><b>Attention</b>: Cette option permet de définir de
+nouvelles balises dans un thème. Assurer vous d'avoir pris toutes les
+précautions nécessaires (sauvegarde, ..).<br>
+<b>Pour créer une balise il faut:</b><span style='font-family:"Arial Unicode MS"'><o:p></o:p></span></p>
+
+<ul type=disc>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'>définir un repère. C’est un
+     morceau de chaine dans le fichier &quot;theme.html&quot;&nbsp;qui permet
+     de situer le remplacement ou l’insertion. Puis définir le texte à insérer
+     à la place, avant ou après. (Rappel : syntaxe d'une balise smarty&nbsp;
+     :&nbsp; <b>&lt;{$maBalise}&gt; </b>).<br>
+     La création de nouvelles balises suppose qu'un plugin utilise ces
+     dernières. <br>
+     Pour la création d'un nouveau plugin il est préférable d'utiliser les
+     balises déjà existantes, sauf à avoir des particularités tel qu'insérer
+     par exemple un &quot;div&quot;&nbsp; à un endroit précis.</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'>Activer les balise que vous
+     insérer en cochant la case sur la ligne de la balise et cliquez sur
+     &quot;mettre &nbsp;jour&quot;</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'>Mettez le <b>répertoire</b>
+     du thème que vous voulez modifier en <b>chmod &quot;777&quot;</b></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'>Mettez le <b>fichier</b>&nbsp;
+     theme.html&quot; th thème que vous voulez modifier en <b>chmod
+     &quot;666&quot;</b></li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'>Sélectionner le thème dans
+     la liste déroulante en bas de la page et cliquez sur &quot;<b>Affecter les
+     balises</b>&quot;.<br>
+     Cette action crée un fichier &quot;<b>theme.html.old</b>&quot; de
+     sauvegarde s'il n'existe pas déjà,<span style="mso-spacerun: yes">  
+     </span>qui sera utilisé pour l'insertion des balises, surtout ne le
+     supprimez pas. Ce fichier permet aussi de restaurer le fichier original en
+     cliquant sur '<b>Effacer les balises</b>'.<br>
+     Seules les balises actives seront insérées dans le fichier.</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l0 level1 lfo1;tab-stops:list 36.0pt'>Remettez le <b>fichier&nbsp;</b>
+     &quot;theme.html&quot; du thème que vous avez modifié en <b>chmod
+     &quot;644&quot;</b></li>
+</ul>
+
+<ul type=disc>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l1 level1 lfo2;tab-stops:list 36.0pt'>Remettez le <b>répertoire</b>
+     du thème que vous avez modifié en <b>chmod &quot;755&quot;</b></li>
+</ul>
+
+<p class=MsoNormal><b><span style='color:red'>Attention la moindre erreur dans
+la syntaxe des balises peut rendre indisponible votre site; Il faudra restaurer
+le fichier original ou changer de thème. Ne modifiez pas les balises sans être
+sur de vous.<br>
+Une fois avoir affecté les balises aux thème, il est possible toutefois de
+revenir au fichier original en cliquant sur &quot;effacer les balises&quot;.<br>
+<br>
+</span>Information :</b></p>
+
+<ul type=disc>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l2 level1 lfo3;tab-stops:list 36.0pt'>Les balises en gras dans la
+     liste ci-dessous sont celles actuellement présentes dans le thème courant.</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l2 level1 lfo3;tab-stops:list 36.0pt'>Certaines de ces balises
+     sont déjà présente dans le bloc &quot;funy_action&quot; si elles ont été
+     insérées dans le fichier &quot;theme.html&quot; elle ne seront pac
+     présente dans le bloc.</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l2 level1 lfo3;tab-stops:list 36.0pt'>L'utilisation de ces balise
+     permet notamment d'ordonnancer les bloc de code javascript dans la page
+     (par exemple, pour mettre les déclarations avant le code des fonctions)</li>
+ <li class=MsoNormal style='mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+     mso-list:l2 level1 lfo3;tab-stops:list 36.0pt'>L'insertion de toutes les
+     balises permet de ne pas afficher le bloc &quot;funy_action&quot; mais
+     dans ce cas les bouton &quot;start&quot; et &quot;stop&quot; ne pourrons
+     plus être exploités. Par contre vous pouvez toujours via un javascript,
+     invoquer les fonctions d'arrêt ou de démarrage&nbsp; propre à chaque
+     plugin (voir le fichier de config du plugin), ou encore les fonction
+     global du module qui appelle ces fonction: &nbsp;&quot;funy_start_all
+     ();&quot; équivalent au bouton &quot;start&quot; et &quot;funy_stop_all
+     ();&quot; équivalent au bouton &quot;stop&quot;.</li>
+</ul>
+
+<pre><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></pre>
+
+<p class=MsoNormal><![if !supportEmptyParas]>&nbsp;<![endif]><o:p></o:p></p>

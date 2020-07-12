@@ -1,0 +1,1 @@
+onload="doWave(0);"

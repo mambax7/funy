@@ -1,0 +1,25 @@
+[language]
+description = "Défilement d'images avec effet de transition"
+
+timeBetweenSlides = "Amount of time between each image(1000 = 1 second)"
+fadingSpeed       = "Speed of fading	(Lower value = faster)"
+currentOpacity    = "Initial opacity"
+folder = "Défitinition du répertoire qui contient les images.pas de slash au début et à la fin.Elles doivent toutes être de la même taille.<br>La racine est http://monsite/uploads/"
+
+modeSize = "Mode de calcul de la taille des images (0= taille predefinie  1=taille des images trouvées)"
+prefixe   = "Prefixe permet de selectionner les images qui commence par ce préfixe"
+extention = "extention permet de selectionner le type d'image. il faut mettre l'estention sans le point: ex 'jpg'. mettre une étoile ou rien pour toutes les extentions"
+caseSensitive = "utile uniquement sous linux par defaut ne fait pas différence"
+caseSensitiveOnPrefixe   = "utile uniquement sous linux par defaut ne fait pas différence"
+caseSensitiveOnExtention = "utile uniquement sous linux par defaut ne fait pas différence"
+legendTop   = "Message affiché audessus ou au dessous des images il peut inclure des balises HTML<br>.Ils seront automatiquement centré donc pas besoin d'ajouter la balise center"
+legendBotom = "Afecté une chaine vide pour ne pas afficher de légende"
+aleatoire = "Images aléatoires"
+modeTransition = "Mode : 0=Fondu - 1=saccadé - ..."
+
+[dico]
+listAlign = "Gauche;Centre;droite"
+ouinon = "Non;Oui"
+modeSize = "taille fixe prédéfinie;Taille automatique"
+listNoYes = "Non;Oui"
+modeTransition = "Fondu;Saccadé;Zoom avant milieu;Zoom avant gauche;Zoom avant haut;Zoom avant droite;Zoom avant bas;Zoom avant coin haut-gauche;Zoom avant coin haut-droite;Zoom avant avant coin bas-droite;Zoom avant coin bas-gauche;Zoom arrière milieu;Zoom arrière gauche;Zoom arrière haut;Zoom arrière droite;Zoom arrière bas;Zoom arrière coin haut-gauche;Zoom arrière coin haut-droite;Zoom arrière arrière coin bas-droite;Zoom arrière coin bas-gauche"

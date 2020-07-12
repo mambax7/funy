@@ -1,0 +1,49 @@
+
+
+<h2>Java Water Simulation</h2>
+<h3>Installation</h3>
+<p><b><font color="#FF0000" size="5">Copier les deux fichiers &quot;water.class&quot; et &quot;water.java&quot;
+qui se trouvent dans le dossier &quot;java&quot; du plugin&nbsp; à
+la racine du site.</font></b></p>
+<p><b><font color="#FF0000" size="5">Copy the two files &quot;water.class&quot; et &quot;water.java&quot;
+witch in the folder &quot;java&quot; of the plugin at the web site root.</font></b></p>
+<h3>Description</h3>
+You can create a fairly realistic water simulation in only a few lines of code.
+I've seen the algorithm implemented here discussed on many sites. A good
+explanation of why this works can be found <a href="http://freespace.virgin.net/hugo.elias/graphics/x_water.htm">here</a>.
+The basic approach is:-<br>
+<ul>
+  <li>Two height maps are used to store the current and previous states of the
+    water. You could use int or short data types for these. Each map should be
+    the same size as the image or screen area that you are drawing. In my
+    implementation I've used a single array of shorts that is large enough to
+    cater for both states, plus, I've added two rows per state. Why? That will
+    become clear later on.</li>
+  <li>Each frame you will toggle between state maps. I'm using a simple offset
+    to swap between starting locations within the array.</li>
+  <li>For each array element in the current state array:-
+    <ul>
+      <li>Look at the neighbouring pixels from the previous state, i.e. above,
+        below, left and right. Take the sum and divide by 2. Because we are
+        dividing by 2 a right-shift will work beautifully.</li>
+      <li>Now subtract the value in the current state map.</li>
+      <li>If we left it like that the ripples would never subside so we need to
+        diminish the strength of the ripple every pass. The most realistic way
+        of doing this is to reduce the resulting height by a fraction of itself.
+        Once again we can use right-shift to optimise this. In my example below
+        I've used reduced the strength of the ripple by 1/32nd of itself each
+        time with a right-shift 5.</li>
+      <li>We now need to distort a background image based on the height of the
+        water ripple in the current location. We do this by calculating an
+        offset. Just as with a real pool of water, light rays penetrating the
+        water will be refracted. We calculate an X/Y offset based on the current
+        distance from the centre of the ripplemap and the magnitude of the
+        ripple at this point.</li>
+      <li>Perform a bounds check on the offset, i.e. check that the offset
+        coordinates are not negative or larger than the size of the texture
+        image.</li>
+      <li>Plot the pixel at current ripplemap x/y location using the texel at
+        the calculated offset.</li>
+    </ul>
+  </li>
+</ul>

@@ -1,0 +1,3 @@
+<div id="BOU" style="position:absolute; z-index:1;">
+<IMG SRC="votreimage.gif" height=xx width=yy>
+</div>

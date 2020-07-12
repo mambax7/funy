@@ -1,0 +1,1025 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+
+
+  
+  
+  <meta http-equiv="Content-Language" content="fr">
+
+
+
+  
+  
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+
+  
+  
+  <title>Pr&eacute;sentation</title>
+</head>
+
+
+<body>
+
+
+
+&nbsp;
+<table border="1" width="100%">
+
+
+
+  <tbody>
+
+
+
+    <tr>
+
+
+
+      <td align="center" width="10%"><br>
+
+
+
+      
+      
+      <div style="text-align: center;"><b><font size="1"><img src="img/funy_logo.png" border="0" height="51" width="91"></font></b><br>
+
+
+
+      <b><font size="1"> </font></b> </div>
+
+
+
+      </td>
+
+
+
+      <td align="center" width="90%"><b><font size="5">Module FUNY pour XOOPS - CARACTERISTIQUES</font></b></td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td width="12%">Description</td>
+
+
+
+      <td width="88%">
+      
+      
+      <p style="margin-top: 4px; margin-bottom: 0pt;">Module
+de gestion de lettres de diffusion pour XOOPS</p>
+
+
+
+      </td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td width="12%">Version</td>
+
+
+
+      <td width="88%">1.010&nbsp;</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td width="12%">Date de cr&eacute;ation</td>
+
+
+
+      <td width="88%">30/07/2008</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td width="12%">Derni&egrave;re mise
+&agrave; jour</td>
+
+
+
+      <td width="88%">31/08/2007</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td width="12%">Auteur</td>
+
+
+
+      <td width="88%">Jean-Jacques DELALANDRE</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td width="12%">Licences</td>
+
+
+
+      <td width="88%">GPL</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td width="10%">copyright</td>
+
+
+
+      <td width="90%">JJD - HERMES 2007</td>
+
+
+
+    </tr>
+
+
+
+  
+  
+  </tbody>
+</table>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<table border="1" width="100%">
+
+
+
+  <tbody>
+
+
+
+    <tr>
+
+
+
+      <td width="100%">
+      
+      
+      <p align="center"><b><font size="5">Module FUNY pour XOOPS - PRESENTATION</font></b></p>
+
+
+
+      </td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td width="100%"> <img style="float: left; width: 117px; height: 197px;" alt="Funy" src="img/funy-01.jpg"><span style="font-size: 12pt; font-family: &quot;Times New Roman&quot;;">
+      </span>
+      
+      <p>Funy&nbsp; est un module de gestion de script
+c&ocirc;t&eacute; client ( javascript) .</p>
+
+
+
+      
+      <p>Ces script petmettent de g&eacute;rer des animations style
+image qui
+tombe, ou qi
+traverse l'&eacute;cran, neige ou autre</p>
+
+
+
+      
+      <p>Un gestionnaire d'&eacute;v&eacute;nement permet de
+g&eacute;rer
+automatiquement, le&nbsp;d&eacute;clenchement des animations,
+combien temps et le renouvellement p&eacute;riodique de ces
+derni&egrave;res;<br>
+
+
+
+Par exemple il est possible de faire tomber de la neigne &agrave;
+no&ecirc;l ou des cloches &agrave; p&acirc;ques, en
+programmant les
+dates de d&eacute;but et de fin des animations.<br>
+
+
+
+Pour l'instant la biblioth&egrave;que d'animation n'et pas
+tr&egrave;s
+riche, mais comme elle concue sous forme de plugin, il est tout
+&agrave;
+fait possible de d&eacute;velopper ses propres animations
+et de les int&eacute;grer dans la biblioth&egrave;que.</p>
+
+      <br>
+
+
+
+      </td>
+
+
+
+    </tr>
+
+
+
+  
+  
+  </tbody>
+</table>
+
+
+
+<h1><span style="font-weight: bold;">Installation</span></h1>
+
+
+
+<p>D&eacute;compressez le fichier sur votre disque dur et
+copiez le
+contenu du
+r&eacute;pertoire "funy" &agrave; la racine de votre site.</p>
+<p style="font-weight: bold; color: rgb(255, 0, 0);">Mettre le dossier "modules/_plugin_declaration" en chmod "777"</p>
+<p><span style="font-weight: bold; color: rgb(255, 0, 0); background-color: rgb(255, 255, 255);">Donner&nbsp;aux groupes les autorisation d'acc&egrave;s aux blocs du module</span></p>
+<p><span style="font-weight: bold; color: rgb(255, 0, 0); background-color: rgb(255, 255, 255);"></span><span style="color: rgb(255, 0, 0); font-weight: bold;">Afficher le bloc "funy_action" &agrave; gauche ou a droite de pr&eacute;f&eacute;rence, et sur les pages souhait&eacute;es. <span style="color: rgb(0, 0, 0);">Les
+bouton "Stop" et "Start" de ce bloc pemettent d'arr&ecirc;ter les
+animations quand les fonctions idoines ont &eacute;t&eacute;
+pr&eacute;vues.</span></span></p>
+<p><span style="font-weight: bold;">Afficher le bloc "funy_text" si vous souhaitez utiliser les plugins qui l'utilise (teste_ondulant,...)</span></p>
+
+
+
+Ensuite dans l'administration de votre site,
+proc&eacute;dez comme pour les autres
+modules.
+<hr>
+<hr>
+<h1>Options du module</h1>
+
+
+
+<p align="center">&nbsp;&nbsp;</p>
+
+
+
+<table border="1" width="100%">
+
+
+
+  <tbody>
+
+
+
+    <tr>
+
+
+
+      <td align="center" width="17%"><b>option</b></td>
+
+
+
+      <td align="center" width="83%"><b>Description</b></td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td width="17%">&Eacute;diteur</td>
+
+
+
+      <td width="83%">Les &eacute;diteurs KOIVI,
+TinyEditor, Inbetween, advanced DHTML et bien s&ucirc;r DHTML sont
+reconnus. Toute fois ils doivent &ecirc;tre install&eacute;s
+pour &ecirc;tre utilis&eacute;s, et ne sont pas fourni avec le
+module.</td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td width="17%">URL de la documentation</td>
+
+
+
+      <td width="83%">La documentation nest pas
+install&eacute; avec le module. Par d&eacute;faut elle pointe
+sur le site de l'auteur, ce qui permet une mise &agrave; jour
+autioatique.
+      
+      
+      <p>Toutefois&nbsp;</p>
+
+
+
+      </td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td width="17%">&nbsp;</td>
+
+
+
+      <td width="83%"> &nbsp; </td>
+
+
+
+    </tr>
+
+
+
+    <tr>
+
+
+
+      <td width="17%">&nbsp;</td>
+
+
+
+      <td width="83%"> &nbsp; </td>
+
+
+
+    </tr>
+
+
+
+  
+  
+  </tbody>
+</table>
+
+
+
+<hr>
+<h1>Plugins</h1>
+
+
+
+La liste des plugins apparait automatiquement dans l'onglet plugin de
+l'administration du module.
+<hr style="width: 100%; height: 2px;">
+<h1>Evennements</h1>
+
+
+
+Pour cr&eacute;er un &eacute;vennement dans l'onglet "plugins"
+de l'administration du module cliquer sur l'i&ocirc;ne
+&nbsp;"nouveau" &nbsp;droite de la liste.<br>
+
+
+
+renseignez le nom de l'&eacute;v&egrave;nement., les dates de
+d&eacute;but et de fin, ainsi que la
+p&eacute;riodicit&eacute;. L'ann&eacute;e et le mois ne
+sont qu'informatifs selon la p&eacute;riodicit&eacute;e choisie;
+Par exempl une programmation du 20/12/2008 au 31/12/2008 avec ne
+p&eacute;riodicit&eacute; annuelle sera
+d&eacute;clench&eacute; tous les ans sans tenir compte de
+l'ann&eacute;e d'orrigine.<br>
+
+
+
+<br>
+
+
+
+Puis selon&nbsp;selon le plugin adaptez les param&egrave;tres
+en fonction de vos besoins.<br>
+
+
+
+Apr&egrave;s validation, l'&eacute;vennement apparaitra dans
+l'onglet "Evennements".<br>
+
+
+
+Vous pouvez d&eacute;sactivez ou r&eacute;activer un plugin en
+cochant la case dans la liste des &eacute;vennements. attention
+m^me cocher, l'activation ne sera effective qu'en fonction des dates
+programm&eacute;es.<br>
+<br>
+<span style="font-weight: bold;">IMPORTANT</span><br>
+<span style="font-weight: bold;">Un seul &eacute;vennement par plugin sera actif en m&ecirc;me temps</span>, celui dont la <span style="font-weight: bold;">date de d&eacute;but est la plus r&eacute;cente</span>.
+En effet les script ne sont &nbsp;pas pr&eacute;vu pour faire tourner
+plusieurs instances d'un m^me plugin. Par ailleurs si les animations
+sont interresantes, il ne faut pas non plus en abuser.<br>
+
+
+
+<br>
+
+
+
+<hr>
+<h1>Cr&eacute;ation d'un plugin</h1>
+
+
+<h3>Fichier de configuration</h3>
+
+
+Le fichier de configuration est un fichier ini avec des section et des cl&eacute;s.<br>
+
+
+exemple: <br>
+
+
+<table style="text-align: left; width: 100%;" border="1" cellpadding="2" cellspacing="2">
+
+
+  <tbody>
+
+
+    <tr>
+
+
+      <td>[info]<br>
+
+
+nom = "Laisse tomber la neige"<br>
+
+
+auteur = "Altan"<br>
+
+
+site&nbsp;&nbsp; = "http://www.altan.hr/snow"<br>
+
+
+adaptation = "JJD"<br>
+
+
+stopScript=funy_snow_stop<br>
+
+
+runScript=funy_snow_start<br>
+
+
+      <br>
+
+
+[balise]<br>
+
+
+funy_body = "body.js"<br>
+
+
+      <br>
+
+
+;-------------------------------------------------------------------<br>
+
+
+;param&egrave;tres du script<br>
+
+
+[funy_no]<br>
+
+
+name = "funy_snow_no"<br>
+
+
+value =15<br>
+
+
+type = 1<br>
+
+
+min = 5<br>
+
+
+max = 50<br>
+
+
+&nbsp;<br>
+
+
+[funy_speed]<br>
+
+
+name = "funy_snow_speed"<br>
+
+
+value =5<br>
+
+
+type = 1<br>
+
+
+min = 5<br>
+
+
+max = 1000<br>
+
+
+      <br>
+
+
+[funy_snowflake]<br>
+
+
+name = "funy_snow_flake"<br>
+
+
+value = "snow.gif"<br>
+
+
+type = 3<br>
+
+
+folder = "modules/funy/_ressources/"<br>
+
+
+      </td>
+
+
+    </tr>
+
+
+  
+  
+  </tbody>
+</table>
+
+
+<br>
+
+
+Descriptions:<br>
+
+
+<table style="text-align: left; width: 100%;" border="1" cellpadding="2" cellspacing="2">
+
+
+  <tbody>
+
+
+    <tr>
+
+
+      <td>Section</td>
+
+
+      <td>Cl&eacute;</td>
+
+
+      <td>Description</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td>info</td>
+
+
+      <td>nom</td>
+
+
+      <td>Nom du plugin qui apparait dans 'onglet "plugins"</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td>info</td>
+
+
+      <td>auteur</td>
+
+
+      <td>Auteur. Merci de faire r&eacute;f&eacute;rence &nbsp;ce dernier m&ecirc;me quand le script est adapter pour ce module.</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td>info</td>
+
+
+      <td>site</td>
+
+
+      <td>Site de l'auteur du script</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td>info</td>
+
+
+      <td>adaptation</td>
+
+
+      <td>Nom de la personne ayant adapt&eacute; le script pour &nbsp;le module "Funy"</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td>info</td>
+
+
+      <td>stopScript</td>
+
+
+      <td>Nom de la fonction javascript &agrave; appeler pour stoper le
+script. Utilis&eacute; notamment dans le bloc, quand on clique sur le
+bouton "stop".</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td>info</td>
+
+
+      <td>runScript</td>
+
+
+      <td>Nom de la fonction javascript &agrave; appeler pour lancer le script. Utilis&eacute;
+notamment dans le bloc, quand on clique sur le bouton "start".</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td>balise<br>
+
+
+      </td>
+
+
+      <td> </td>
+
+
+      <td><span style="font-weight: bold;">Inutilis&eacute; pour le moment</span><br>
+Cette section contient la liste des fichiers javascript
+(*.js) et les blise smarty correspondante.. Chacun de ces fichier sera
+ins&eacute;re dans la balise. Ces balises sont d&eacute;finis dans le
+bloc "funy_block_action.html".</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td><br>
+
+
+      </td>
+
+
+      <td></td>
+
+
+      <td></td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td></td>
+
+
+      <td></td>
+
+
+      <td></td>
+
+
+    </tr>
+
+
+  
+  
+  </tbody>
+</table>
+
+
+<br>
+
+
+Les autres sections d&eacute;finissent les param&egrave;tres du
+plugins. Ils apparaitrond en &eacute;dition de
+l'&eacute;v&eacute;nnements, et permettrons de
+g&eacute;n&eacute;r&eacute;s un javascript qui sera ins&eacute;rer
+avant le "body.js". Ces param&egrave;tres sont &agrave; utiliser
+notamment pour d&eacute;finir la vitesse de l'aimation, les texte,
+l'image etc.<br>
+
+
+<table style="text-align: left; width: 100%;" border="1" cellpadding="2" cellspacing="2">
+
+
+  <tbody>
+
+
+    <tr>
+
+
+      <td>Cl&eacute;</td>
+
+
+      <td>Description</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td>name<br>
+
+
+      </td>
+
+
+      <td>Nom du param&egrave;tre. c'est le nom de la variable utilis&eacute;es dans les javaScript.</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td>value</td>
+
+
+      <td>Valeur par d&eacute;fault du param&egrave;tre</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td>type</td>
+
+
+      <td>0 = Text<br>
+
+
+1 = &nbsp;spinButton (renseign&eacute; les cl&eacute; min et max pour ce type)<br>
+
+
+2 = Liste de libele dont le num&eacute;ro d'ordre est atomatique (le premier commence &agrave; 0)<br>
+
+
+3 = &nbsp;c'est une liste de fichiers GIF<br>
+
+
+4 = Permet de d&eacute;finir une couleur<br>
+
+
+5 = Texte HTML<br>
+
+
+6 = Variable masqu&eacute;e d&eacute;cla&eacute;re dans le fichier ini mais non modifiable<br>
+7 = liste de valeur dans une table d&eacute;fini par les cl&eacute;s "table" et "field" associ&eacute;es<br>
+8&nbsp;= Url du module (http://votreSite/modules/funy/)<br>
+9&nbsp;= nom de l'&eacute;v&eacute;nnement<br>
+
+
+10 = Defini un titre. Permet de classer les param&egrave;tre dans l'interface de param&egrave;trage des &eacute;vennements.<br>
+
+
+20 = Ligne de separation. Permet de classer les param&egrave;tre dans l'interface de param&egrave;trage des &eacute;vennements.</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td>)min</td>
+
+
+      <td>Valeur minimum si type=1</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td>max</td>
+
+
+      <td>Valeur maximum si type=1</td>
+
+
+    </tr>
+
+
+    <tr>
+
+
+      <td>folder</td>
+
+
+      <td>R&eacute;pertoire des ressources , images, ou autres. (Utilis&eacute; par type=3)</td>
+
+
+    </tr>
+
+
+  
+  
+  </tbody>
+</table>
+
+
+<br>
+<span style="color: rgb(51, 51, 255); font-weight: bold;">Attention les &eacute;l&eacute;ments de configuration sont suceptibles d'&eacute;voluer en fonction des besoin des plugins.</span><br>
+
+
+<h3>Les fichiers de langue:</h3>
+
+
+Utiliser pour les traduction des descriptions des param&ecirc;tres.<br>
+
+
+Chaque cl&eacute; du fichier de langue doit correstpondre au nom des
+param&egrave;tres tel que d&eacute;fini dans le fichier "ini" (nom des
+cl&eacute;s);<br>
+
+
+exemple:<br>
+
+
+<table style="text-align: left; width: 100%;" border="1" cellpadding="2" cellspacing="2">
+
+
+  <tbody>
+
+
+    <tr>
+
+
+      <td>[language]<br>
+
+
+description&nbsp;&nbsp;&nbsp; = "fait tomber des flocons de neiges"<br>
+
+
+funy_no&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; = "nombre d'images"<br>
+
+
+funy_speed&nbsp;&nbsp;&nbsp;&nbsp; = "plus le nombre est petit, plus la vitesse augmente"<br>
+
+
+funy_snowflake = "Image a afficher" <br>
+
+
+      </td>
+
+
+    </tr>
+
+
+  
+  
+  </tbody>
+</table>
+
+
+<br>
+
+
+<h3>Les fichiers JavaScript</h3>
+
+
+Il doit y avoir au moins un fichier javascript, de pr&eacute;f&eacute;rence nomm&eacute; "body.js".<br>
+
+
+Il sera ins&eacute;rer juste apr&egrave;s le d&eacute;claration des
+varaibles g&eacute;n&eacute;r&eacute;s par l'&eacute;vennement du
+plugin.<br>
+
+
+<br>
+
+
+<br>
+
+
+<h3>Important</h3>
+
+
+Afin de na pas risquer de dupliquer des nom de fonctions ou de
+variables, il est fortement recommand&eacute; de pr&eacute;fixer tous
+les objets d'un plugin (nom de variables, fonctions, objet DIV, etc)<br>
+
+
+Voir le plugin "neige qui tombe" en exemple.<br>
+
+
+
+<hr style="width: 100%; height: 2px;">
+</body>
+</html>
